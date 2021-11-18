@@ -1,0 +1,105 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+img{
+    width: 100%;
+    display: block;
+}
+.h_100{
+    height: 100%;
+}
+
+
+
+/* SCAFFOLDING */
+.app_container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider_container{
+    width: 55%;
+    height: 50%;
+    display: flex;
+}
+.col_left{
+    width: 80%;
+    position: relative;
+}
+.col_right{
+    width: 20%;
+    position: relative;
+}
+
+/* Big image */
+.img_container{
+    height: 100%;
+    width: 100%;
+}
+.img_container img{
+    height: 100%;
+    width: 100%;
+}
+/* Texts */
+.texts {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 40%;
+    text-align: right;
+}
+.texts h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+.texts p{
+    font-size: 15px;
+}
+
+
+/* Thumbnails */
+.thumbnails_container{
+    width: 100%;
+    height: 100%;
+}
+.thumb{
+    width: 100%;
+    height: 20%;
+}
+.thumb img{
+    height: 100%;
+    width: 100%;
+}
+.grayscale{
+    filter: grayscale(1);
+}
+/* Buttons */
+.btn{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    background-color: rgba(250, 250, 250, 0.5);
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+.btn_top{
+    top:3px;
+}
+.btn_bottom{
+    bottom:3px;
+}
